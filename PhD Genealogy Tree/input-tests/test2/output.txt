@@ -1,0 +1,87 @@
+help
+contains <firstName> <lastName> : whether this professor is in the PhD tree
+size <firstName> <lastName> : the number of nodes in the tree with the given professor at the root
+advisor <firstName> <lastName> : the direct advisor of the given professor
+ancestor <firstName1> <lastName1> <firstName2> <lastName2> : the common ancestor between the two given professors
+find <firstName> <lastName> : the PhDTree with the given professor at the root
+lineage <firstName> <lastName> : the sequence of professors that are related and come before this professor
+print : prints out to the console the entire tree in your .csv file
+exit : exit the program
+Perry McCarty - 1959
+Bruce Rittmann - 1979
+Jeanne Briesen - 1998
+Duygu Altintas - 2019
+Lauren Bergman - 2016
+Adam Cadwallader - 2018
+Lauren Cook - 2018
+Maria Escoriza - 2006
+Royce Francis - 2009
+Domenico Amodeo - 2019
+Behailu Bekera - 2016
+Vikram Rao - 2020
+Kelly Good - 2018
+Damian Helbling - 2008
+Corey Carpenter - 2019
+Casey Ching - 2022
+Yuhan Ling - 2019
+Marika Nell - 2020
+Amanda Hughes - 2010
+Mohan Jiang - 2013
+Sandra Karcher - 2005
+Chelsea Kolb - 2018
+Eric McGivney - 2017
+Shannon Parks - 2008
+Mary Schoen - 2008
+Sara Schwetschenau - 2019
+Stacia Thompson - 2008
+Christine Wang - 2006
+Yuxin Wang - 2014
+Jassica Wilson - 2013
+Jinghua Xiao - 2006
+Yan Xu - 2011
+Zhiwen Yuan - 2004
+Neng Chan - 2020
+Tengfei Chen - 2018
+Anca Delgado - 2013
+Randhir Deo - 2010
+Michal El - 2012
+Nasser Hamdan - 2014
+Daewook Kang - 2014
+Hyung Lee - 2009
+Yuanzhe Liu - 2019
+Bradley Lusk - 2015
+Mohamed Mahmoud - 2016
+Andrew Marcus - 2009
+Binh Nguyen - 2015
+Prathap Parameswaran - 2010
+John Schloendorn - 2009
+Levi Straka - 2017
+Youneng Tang - 2012
+Aura Valencia - 2014
+Michelle Young - 2018
+Alexander Zevin - 2015
+Chen Zhou - 2011
+This professor is contained in the PhD tree.
+This professor is not contained in the PhD tree.
+This professor is contained in the PhD tree.
+This professor is contained in the PhD tree.
+The number of nodes in this tree is: 1.
+The number of nodes in this tree is: 5.
+The number of nodes in this tree is: 31.
+The person does not exist in the tree.
+The advisor of this advisee is: Bruce Rittmann.
+The advisor of this advisee is: Damian Helbling.
+This person does not have an advisor.
+This professor does not exist in the tree.
+The common ancestor of these scholars is: Casey Ching.
+The common ancestor of these scholars is: Damian Helbling.
+The common ancestor of these scholars is: Damian Helbling.
+These scholars do not have a common ancestor.
+The PhDTree with Corey Carpenterat the root is Corey Carpenter.
+The PhDTree with Damian Helblingat the root is Damian Helbling[Corey Carpenter, Casey Ching, Yuhan Ling, Marika Nell].
+The PhDTree with Jeanne Briesenat the root is Jeanne Briesen[Duygu Altintas, Lauren Bergman, Adam Cadwallader, Lauren Cook, Maria Escoriza, Royce Francis[Domenico Amodeo, Behailu Bekera, Vikram Rao], Kelly Good, Damian Helbling[Corey Carpenter, Casey Ching, Yuhan Ling, Marika Nell], Amanda Hughes, Mohan Jiang, Sandra Karcher, Chelsea Kolb, Eric McGivney, Shannon Parks, Mary Schoen, Sara Schwetschenau, Stacia Thompson, Christine Wang, Yuxin Wang, Jassica Wilson, Jinghua Xiao, Yan Xu, Zhiwen Yuan].
+This person does not exist in the tree.
+Perry McCarty--Bruce Rittmann--Jeanne Briesen--Damian Helbling--Casey Ching.
+Perry McCarty--Bruce Rittmann--Jeanne Briesen.
+Perry McCarty.
+This person does not exist in the tree.

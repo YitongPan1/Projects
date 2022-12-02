@@ -1,0 +1,27 @@
+help
+print
+contains Damian Helbling
+contains Andrew Myers
+contains Casey Ching
+contains Perry McCarty
+size Casey Ching
+size Damian Helbling
+size Jeanne Briesen
+size Andrew Myers
+advisor Jeanne Briesen
+advisor Casey Ching
+advisor Perry McCarty
+advisor Andrew Myers
+ancestor Casey Ching Casey Ching
+ancestor Casey Ching Corey Carpenter
+ancestor Damian Helbling Corey Carpenter
+ancestor Damian Helbling Andrew Myers
+find Corey Carpenter
+find Damian Helbling
+find Jeanne Briesen
+find Andrew Myers
+lineage Casey Ching
+lineage Jeanne Briesen
+lineage Perry McCarty
+lineage Andrew Myers
+exit
