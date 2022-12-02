@@ -1,0 +1,54 @@
+Please enter a command:
+help
+addstudent <firstName> <lastName> <year>
+addcourse <courseName> <profName> <location> <time (24-hour)>
+enroll <student index> <course index>
+drop <student index> course index>
+students
+courses
+enrollment <course index>
+exit
+
+Please enter a command: Successfully created new student: Joe Smith, year: 2
+Please enter a command: Successfully created new student: Bill Nye, year: 3
+Please enter a command: Successfully created new student: Sheldon Scott, year: 1
+Please enter a command: Successfully created new student: Yidan Lee, year: 4
+Please enter a command: Successfully created new student: Harry Park, year: 2
+Please enter a command: Successfully created new student: Hali Wang, year: 5
+Please enter a command:
+0 Joe Smith
+1 Bill Nye
+2 Sheldon Scott
+3 Yidan Lee
+4 Harry Park
+5 Hali Wang
+Please enter a command: Successfully created new course: OOP taught by Professor Gries at 10:00 AM, Location: Statler
+Please enter a command: Successfully created new course: FunctionalProgramming taught by Professor Clarkson at 1:25 PM, Location: Kennedy
+Please enter a command: Successfully created new course: Physichem taught by Professor Helbling at 12:05 PM, Location: Hollister
+Please enter a command: Successfully created new course: Statistics taught by Professor Wells at 7:30 PM, Location: Warren
+  i Name                                   Time        Instructor          Location
+  0 OOP                                     10:00 AM    Gries               Statler
+  1 FunctionalProgramming                   1:25 PM     Clarkson            Kennedy
+  2 Physichem                               12:05 PM    Helbling            Hollister
+  3 Statistics                              7:30 PM     Wells               Warren
+Please enter a command: Joe Smith was successfully enrolled in OOP
+Please enter a command: Joe Smith is already enrolled in OOP
+Please enter a command: Sheldon Scott was successfully enrolled in OOP
+Please enter a command: Hali Wang was successfully enrolled in Statistics
+Please enter a command: One of the indices you provided is out of bounds
+Please enter a command: One of the indices you provided is out of bounds
+Please enter a command: Yidan Lee was successfully enrolled in Physichem
+Please enter a command: Harry Park was successfully enrolled in Physichem
+Please enter a command: [Joe Smith, Sheldon Scott]
+Please enter a command: []
+Please enter a command: [Hali Wang]
+Please enter a command: Index 7 is out of bounds
+Please enter a command: Bill Nye is not enrolled in FunctionalProgramming
+Please enter a command: Joe Smith was successfully dropped from OOP
+Please enter a command: Sheldon Scott is not enrolled in FunctionalProgramming
+Please enter a command: Harry Park was successfully dropped from Physichem
+Please enter a command: Harry Park is not enrolled in Physichem
+Please enter a command: One of the indices you provided is out of bounds
+Please enter a command: [Sheldon Scott]
+Please enter a command: [Yidan Lee]
+Please enter a command: []

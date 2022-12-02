@@ -1,0 +1,35 @@
+help
+addstudent Joe Smith 2
+addstudent Bill Nye 3
+addstudent Sheldon Scott 1
+addstudent Yidan Lee 4
+addstudent Harry Park 2
+addstudent Hali Wang 5
+students
+addcourse OOP Gries Statler 10:00
+addcourse FunctionalProgramming Clarkson Kennedy 13:25
+addcourse Physichem Helbling Hollister 12:05
+addcourse Statistics Wells Warren 19:30
+courses
+enroll 0 0
+enroll 0 2
+enroll 2 0
+enroll 5 3
+enroll 6 3
+enroll 5 7
+enroll 3 2
+enroll 4 2
+enrollment 0
+enrollment 1
+enrollment 3
+enrollment 7
+drop 1 1
+drop 0 0
+drop 2 1
+drop 4 2
+drop 4 2
+drop 4 8
+enrollment 0
+enrollment 2
+enrollment 1
+exit
