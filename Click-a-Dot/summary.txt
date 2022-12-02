@@ -1,0 +1,19 @@
+A6 Summary
+
+(Fill out this file with brief answers.)
+
+Name(s) and NetID(s) of group members:
+Yitong Pan yp258
+Time spent on the assignment, in hours:
+8 hours
+Implementation strategy:
+    (describe how you went about implementing the assignment and how the work was divided between the partners.)
+Following the steps and searching online for sources one by one
+Testing strategy:
+    (how did you perform testing and design test cases to achieve coverage?)
+Play the game and check for testing rubrics
+Known problems:
+    (are there any things that do not work?)
+None
+Comments on the assignment:
+I like this assignment a lot
